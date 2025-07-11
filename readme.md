@@ -26,7 +26,7 @@ quiz_app/
 
 ```bash
 # 新しい仮想環境の作成
-conda create -n quiz_app python=3.13.5
+conda create -n quiz_app python=3.13
 # 仮想環境を有効化
 conda activate quiz_app
 ```
