@@ -59,4 +59,5 @@ else:
     if st.button("リセット"):
         for key in ["quiz", "current", "score", "answers", "finished"]:
             st.session_state.pop(key, None)
-        st.write("リセットしました。ページをリロードしてください。")
+            st.rerun()
+        #st.write("リセットしました。ページをリロードしてください。")
